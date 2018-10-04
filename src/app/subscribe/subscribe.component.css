@@ -1,0 +1,19 @@
+.subscribe { padding: 30px 0; }
+
+h2 { color: #708090; font-family: Oswald, sans-serif; margin-bottom: 45px; }
+
+.form-group { display: inline-block; vertical-align: top; }
+
+input { border-radius: 4px 0 0 4px; }
+
+.form-control { font-size: 14px; }
+
+.form-control:focus { border: 1px solid #ced4da; box-shadow: none; }
+
+button { vertical-align: top; border-radius: 0 4px 4px 0; background-color: #2b3142; color: #708090; }
+
+/*form { margin-bottom: 30px; }*/
+
+@media only screen and (max-width: 767px) {
+  h2 { font-size: 25px; }
+}

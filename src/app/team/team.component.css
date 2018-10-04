@@ -1,0 +1,125 @@
+.team {  padding: 40px 0; }
+
+ul {
+  position: absolute;
+  /*top: 0;*/
+  /*left: 0;*/
+  width: 100%;
+  height: 60%;
+  background: #ccc;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+  position: relative;
+  width: 16.66%;
+  height: 100%;
+  border-right: 1px solid #000;
+  float: left;
+  box-sizing: border-box;
+  transition: 0.5s;
+  text-align: center;
+  overflow: hidden;
+}
+
+ul li:nth-child(1) {
+  background: url('../../assets/img/shrreya.jpg');
+  background-size: cover;
+  background-position: left;
+}
+
+ul li:nth-child(2) {
+  background: url('../../assets/img/manas.jpg');
+  background-size: cover;
+  background-position: left;
+}
+
+ul li:nth-child(3) {
+  background: url('../../assets/img/amit.jpeg');
+  background-size: cover;
+  background-position: left;
+}
+
+ul li:nth-child(4) {
+  background: url('../../assets/img/apoorva.jpg');
+  background-size: cover;
+  background-position: left;
+}
+
+ul li:nth-child(5) {
+  background: url('../../assets/img/arpit.jpeg');
+  background-size: cover;
+  background-position: left;
+}
+
+ul li:nth-child(6) {
+  background: url('../../assets/img/shubham.jpeg');
+  background-size: cover;
+  background-position: left;
+}
+
+ul:hover li {
+  width: 10%;
+}
+
+ul li:hover {
+  width: 30%;
+}
+
+ul li .content {
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  width: 100%;
+  background: #2b3142;
+  box-sizing: border-box;
+  color: #708090;
+  opacity: 0;
+}
+
+.name { margin-bottom: 0; }
+
+ul li:hover .content {
+  bottom: 0;
+  transition: 0.5s;
+  transition-delay: 0.3s;
+  opacity: 1;
+}
+
+/*.team { padding: 30px 0; }
+
+.team-members {
+  display: table;
+  width: 100%;
+  overflow: hidden;
+}
+
+h2 {
+  color: #212739;
+  opacity: 0.5;
+  font-family: Oswald, sans-serif;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+}
+
+.team-members .team-member {
+  display: table-cell;
+  width: 1%;
+  height: 400px;
+  transition: 0.6s ease-in-out all;
+  overflow: hidden;
+  position: relative;
+  min-width: 65px;
+}
+
+img {
+  width: 210px;
+  height: 350px;
+  transition: 0.6s ease-in-out all;
+}
+
+img:hover {
+  width: 250px;
+}*/

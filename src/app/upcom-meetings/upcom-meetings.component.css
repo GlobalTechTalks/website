@@ -1,0 +1,33 @@
+.past-meet { padding: 40px 0; background-color: #ECEFF1; }
+
+.past-meet-heading { color: #212739; font-family: Oswald, sans-serif; letter-spacing: 1.2px; margin-bottom: 50px; }
+
+.meet { display: inline-block; width: 50%; overflow-x: hidden; vertical-align: top; }
+
+strong { font-size: 25px; font-family: Oswald, sans-serif; letter-spacing: 1px; }
+
+small { display: block; margin-top: 10px; font-family: Oswald, sans-serif; letter-spacing: 0.5px; }
+
+.img { margin-top: 20px; margin-bottom: 20px; position: relative; }
+
+img { width: 70%; height: 250px; border: 5px solid #2b3142; border-radius: 15px; }
+
+p { font-family: Oswald, sans-serif; width: 70%; margin: auto; letter-spacing: 0.5px; }
+
+/*.img:before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-color: rgba(25,31,62,0.7);
+  background-size: 400%;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  z-index: -1;
+}*/
+
+a { cursor: pointer; }
+
+@media only screen and (max-width: 767px) {
+  p { width: 100%; }
+}
