@@ -1,0 +1,29 @@
+.navbar { background: rgba(33,39,57,.95); }
+
+.navbar-brand { color: #fff; font-family: 'Megrim', cursive; font-weight: bold; font-size: 30px;
+  letter-spacing: 1.5px;
+}
+
+.navbar-light .navbar-nav  .active > .nav-link {
+  color: #708090;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.navbar-light .navbar-brand:hover { color: #fff; }
+
+.navbar-light .navbar-nav .nav-link { color: #708090; text-transform: uppercase;
+  font-family: 'Oswald', sans-serif; font-weight: bold; letter-spacing: 1px;
+}
+
+.btn { border: none; background-color: transparent; }
+
+.btn:focus { box-shadow: none !important; }
+
+.dropdown-toggle::after { margin-left: 0.5rem; }
+
+.ngdropdown { background-color: #ECEFF1; }
+
+.dropdown-item.active, .dropdown-item:active { background: rgba(33,39,57,.95); }
+/*.navbar-collapse .navbar-nav { float: right; }*/

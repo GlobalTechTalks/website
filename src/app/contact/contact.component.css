@@ -1,0 +1,16 @@
+.contact-div { padding: 40px 0; }
+
+.form-control { font-size: 14px; color: #555; }
+
+.form-control:focus { border: 1px solid #ced4da; box-shadow: none; }
+
+.form-col { margin: 0 auto; }
+
+.sub-btn { padding: 6px 40px; background-color: #2b3142; color: #708090; font-size: 18px; }
+
+@media only screen and (max-width: 767px) {
+  .form-control {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
